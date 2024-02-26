@@ -7,7 +7,7 @@ export default function Question() {
     const [Testdata, setTestData] = useState([]);
     const [load, setLoad] = useState(false);
     const soru = "bana 1 adet toplama işlemi sor ";
-    const genAI = new GoogleGenerativeAI("AIzaSyDZgTBJu6BfkHSolKj9uzVIFO5daT1_-fU");
+    const genAI = new GoogleGenerativeAI(APİ_KEY);
 
     // Farklı prompt1 çıktıları için dizi oluştur
     const prompts = [
